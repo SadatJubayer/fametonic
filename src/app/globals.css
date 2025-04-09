@@ -70,6 +70,10 @@
     color: var(--color-accent);
   }
 
+  .text-gray {
+    color: #a9a9a9;
+  }
+
   .text-muted-foreground {
     color: var(--color-muted-foreground);
   }
@@ -81,5 +85,6 @@
 
 @utility container {
   margin-inline: auto;
-  padding-inline: 2rem;
+  padding-inline: 1rem;
+  max-width: 1080px;
 }

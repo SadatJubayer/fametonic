@@ -1,7 +1,14 @@
+import { Navbar } from '@/components/navbar';
+import { PromoBar } from '@/components/promo-bar';
 import React from 'react';
 
 const HomePage = () => {
-  return <div className="container">HomePage</div>;
+  return (
+    <main className="flex min-h-screen flex-col">
+      <PromoBar />
+      <Navbar />
+    </main>
+  );
 };
 
 export default HomePage;
