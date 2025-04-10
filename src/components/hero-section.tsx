@@ -74,8 +74,17 @@ export function HeroSection() {
               />
             </div>
 
+            {/* Legal Text */}
+            <div className="text-xs text-[#ababab] animate-fade-in delay-500 order-1 md:order-3 mb-12 md:mt-8">
+              <p>
+                By clicking &quot;Get Started&quot;, you agree with Terms and
+                Conditions, Privacy Policy, Subscription Terms
+              </p>
+              <p className="mt-2">Fametonic 2024 ©All Rights Reserved.</p>
+            </div>
+
             {/* CTA Section */}
-            <div className="flex flex-col items-center animate-fade-in delay-500 gap-2.5 md:max-w-[284px]">
+            <div className="flex flex-col items-center animate-fade-in delay-500 gap-2.5 md:max-w-[284px] order-2">
               <Button>
                 GET STARTED
                 <ChevronRightIcon />
@@ -83,15 +92,6 @@ export function HeroSection() {
               <p className="text-xs text-white">
                 1-minute quiz for personalized insights
               </p>
-            </div>
-
-            {/* Legal Text */}
-            <div className="text-xs text-[#ababab] mt-4 animate-fade-in delay-500">
-              <p>
-                By clicking &quot;Get Started&quot;, you agree with Terms and
-                Conditions, Privacy Policy, Subscription Terms
-              </p>
-              <p className="mt-2">Fametonic 2024 ©All Rights Reserved.</p>
             </div>
           </div>
         </div>
