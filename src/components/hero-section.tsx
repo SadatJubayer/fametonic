@@ -29,7 +29,7 @@ export function HeroSection() {
                   alt="Fametonic App Interface"
                   width={500}
                   height={600}
-                  className="-mt-10 w-full h-auto object-cover md:scale-115 lg:scale-150 rounded-xl"
+                  className="-mt-10 w-full h-auto object-cover md:scale-115 lg:scale-125 rounded-xl"
                   priority
                 />
               </div>
