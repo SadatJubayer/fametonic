@@ -15,7 +15,8 @@ export function HeroSection() {
               <div className="relative animate-float block md:hidden h-[500px] sm:h-[640px] w-full mt-[-80px] mb-[-100px]">
                 <Image
                   src="/images/hero_image_mobile.png"
-                  alt="Fametonic App Interface"
+                  alt="Fametonic App Interface - Mobile View"
+                  data-testid="mobile-hero-image"
                   fill
                   className="object-cover"
                   priority
@@ -26,7 +27,8 @@ export function HeroSection() {
               <div className="relative hidden md:block">
                 <Image
                   src="/images/hero_image.png"
-                  alt="Fametonic App Interface"
+                  alt="Fametonic App Interface - Desktop View"
+                  data-testid="desktop-hero-image"
                   width={500}
                   height={600}
                   className="-mt-10 w-full h-auto object-cover md:scale-115 lg:scale-125 rounded-xl"
