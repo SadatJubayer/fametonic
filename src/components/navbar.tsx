@@ -28,7 +28,7 @@ export function Navbar({
   className = '',
 }: NavbarProps) {
   return (
-    <header className={`sticky top-0 z-40 w-full py-4 ${className}`}>
+    <header className={`z-40 w-full py-4 ${className}`}>
       <div className="container flex h-16 md:h-24 md:mt-6 items-center md:items-start justify-between">
         {/* Spacer for mobile layout balance */}
         <div className="block md:hidden w-10" aria-hidden="true" />
