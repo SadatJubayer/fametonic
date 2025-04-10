@@ -52,6 +52,23 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## 🧪 Testing
+
+We use Jest and React Testing Library for our testing suite. Tests are located in the `__tests__` directory.
+
+### Running Tests
+
+```bash
+# Run all tests
+pnpm test
+
+# Run tests in watch mode
+pnpm test:watch
+
+# Run tests with coverage report
+pnpm test --coverage
+```
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
